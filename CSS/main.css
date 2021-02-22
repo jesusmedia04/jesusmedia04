@@ -1,0 +1,149 @@
+.header_principal{
+    width: 100%;
+    height: 80vh;
+    background-image: url(/img/banner.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+}
+h1 {
+    position: absolute;
+    width: 321px;
+    height: 74px;
+    left: 500px;
+    top: 12px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+.nameis {
+    position: absolute;
+    width: 361px;
+    height: 97px;
+    left: 250px;
+    top: 329px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    line-height: 42px;
+    color: #FFFFFF;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+}
+.sobremi {
+    background: #7299FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+section>h2 {
+    color: #1D06A7;
+    font-size: 40px;
+}
+h2~p {
+    color: white;
+    width: 60%;
+    height: 50%;
+    line-height: 24px;
+    
+}
+p~button {
+    width: 187px;
+    height: 62px;
+    background: #D16FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 1em;
+    position: relative;
+    right: 290px;
+}
+button a{
+    width: 71px;
+    height: 25px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.skills {
+background: #9122FF;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.list_skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.curso {
+    margin: 2em;
+}
+h3~progress {
+    width: 400px;
+    height: 2em;
+}
+.portafolio {
+    background: #FFD233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenes_portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: center;
+    margin: 3em;
+}
+section img {
+    margin: 1em;
+}
+.clientes {
+    background: #3F4E62;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+footer{
+    background-color: #1687A0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    height: 50%;
+    margin: 2em;
+}
+form input {
+    width: 363px;
+    height: 40px;
+    margin: 0.5em;
+}
+form textarea{
+    width: 750px;
+    height: 112px;
+    margin: 0.5em;
+}
+.enviar{
+    width: 167px;
+    height: 56px;
+    background: #233451;
+    margin: 2em;
+}
